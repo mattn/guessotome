@@ -12,7 +12,6 @@ def main():
 
 @app.route('/', methods=['POST'])
 def index():
-  print(request.form['text'])
   return json.dumps({"lang": guess.language_name(request.form['text'])})
 
 if __name__ == '__main__':
