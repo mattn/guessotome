@@ -1,2 +1,2 @@
-Flask>=0.12,<0.13
-guesslang>=0.9,<1.0
+Flask==0.12.4
+guesslang==0.9.3
